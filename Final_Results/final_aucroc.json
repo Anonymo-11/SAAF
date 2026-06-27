@@ -1,0 +1,47 @@
+{
+  "root": "/share/users/khalid_datasets/1_Efficient_Video_Anomaly_V2/scores/Final_Results",
+  "metric": "micro_frame_aucroc",
+  "description": "Stage-3 smoothed scores vs gt_concat.npy",
+  "results": [
+    {
+      "dataset": "XD-Violence",
+      "n_videos": 800,
+      "n_frames": 2335801,
+      "n_positives": 531007,
+      "pred_frames": 2335801,
+      "aucroc": 0.9206613462948278,
+      "aucroc_pct": 92.07,
+      "error": null
+    },
+    {
+      "dataset": "UCF-Crime",
+      "n_videos": 290,
+      "n_frames": 1111808,
+      "n_positives": 84331,
+      "pred_frames": 1111808,
+      "aucroc": 0.825912041128074,
+      "aucroc_pct": 82.59,
+      "error": null
+    },
+    {
+      "dataset": "MSAD",
+      "n_videos": 360,
+      "n_frames": 227524,
+      "n_positives": 81813,
+      "pred_frames": 227524,
+      "aucroc": 0.8670346295484871,
+      "aucroc_pct": 86.7,
+      "error": null
+    },
+    {
+      "dataset": "ShanghaiTech",
+      "n_videos": 107,
+      "n_frames": 40791,
+      "n_positives": 17325,
+      "pred_frames": 40791,
+      "aucroc": 0.8053999590946663,
+      "aucroc_pct": 80.54,
+      "error": null
+    }
+  ]
+}
