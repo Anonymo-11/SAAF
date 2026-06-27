@@ -1,0 +1,26 @@
+{
+  "dataset": "XD-Violence",
+  "stage": "3_lambda_gating_mild",
+  "lambda_delta": 0.6,
+  "lambda_drift": 0.4,
+  "lambda_both": 0.5,
+  "original_lambda_mapping": {
+    "delta_only": 0.8,
+    "drift_only": 0.2,
+    "both": 0.5
+  },
+  "threshold_tf": 0.4,
+  "fill_m": 16,
+  "n_videos": 800,
+  "n_frames": 2335801,
+  "micro_aucroc": 0.8853,
+  "micro_aucroc_pct": 88.53,
+  "micro_ap": 0.668,
+  "expected_aucroc_pct": 88.53,
+  "inputs": {
+    "frame_dir": "/share/users/khalid_datasets/1_Efficient_Video_Anomaly_V2/ablation_signal_component_XD/or_gated/stride_16_fill_16_val_0_30",
+    "video_dir": "/share/users/khalid_datasets/1_Efficient_Video_Anomaly_V2/Unified_data/xd_violence/refined_scores_npys",
+    "gt_dir": "/share/users/khalid_datasets/1_Efficient_Video_Anomaly_V2/0_Ground_Truth_datasets/XD_Ground_Truth_Split",
+    "lambda_dir": "/share/users/khalid_datasets/1_Efficient_Video_Anomaly_V2/6_XD_lambda_generation_based_on_Delta_Drift/individual_scores"
+  }
+}

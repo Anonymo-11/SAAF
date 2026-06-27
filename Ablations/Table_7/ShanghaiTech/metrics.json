@@ -1,0 +1,26 @@
+{
+  "dataset": "ShanghaiTech",
+  "stage": "3_lambda_gating_mild",
+  "lambda_delta": 0.6,
+  "lambda_drift": 0.4,
+  "lambda_both": 0.5,
+  "original_lambda_mapping": {
+    "delta_only": 0.8,
+    "drift_only": 0.2,
+    "both": 0.5
+  },
+  "threshold_tf": 0.4,
+  "fill_m": 16,
+  "n_videos": 107,
+  "n_frames": 40791,
+  "micro_aucroc": 0.755,
+  "micro_aucroc_pct": 75.5,
+  "micro_ap": 0.6924,
+  "expected_aucroc_pct": 75.5,
+  "inputs": {
+    "frame_dir": "/share/users/khalid_datasets/1_Efficient_Video_Anomaly_V2/ablation_signal_component_ShanghaiTech/results_or_gated/stride_16_fill_16_val_0_30",
+    "video_dir": "/share/users/khalid_datasets/FG/Codes/Results/30_Video_LLAMA_ShanghitTech_ACM_Refined_unified_Anomaly_Score_Map_Concat_Stride_16",
+    "gt_dir": "/share/users/khalid_datasets/1_Efficient_Video_Anomaly_V2/0_Ground_Truth_datasets/ShanghiTech_GT_Splited",
+    "lambda_dir": "/share/users/khalid_datasets/1_Efficient_Video_Anomaly_V2/6_ShanghiTech_lambda_generation_based_on_Delta_Drift_Selected_1/individual_scores"
+  }
+}

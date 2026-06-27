@@ -1,0 +1,15 @@
+{
+  "dataset": "ShanghaiTech",
+  "stage": "stage2_frame_plus_gaussian_smoothing",
+  "refine_sigma": 30.0,
+  "n_videos": 107,
+  "n_frames": 40791,
+  "micro_aucroc": 0.7719,
+  "micro_aucroc_pct": 77.19,
+  "micro_ap": 0.7469,
+  "expected_aucroc_pct": 77.19,
+  "inputs": {
+    "frame_dir": "ablation_signal_component_ShanghaiTech/results_or_gated/stride_16_fill_16_val_0_30",
+    "gt_dir": "0_Ground_Truth_datasets/ShanghiTech_GT_Splited"
+  }
+}

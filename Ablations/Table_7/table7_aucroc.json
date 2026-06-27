@@ -1,0 +1,55 @@
+{
+  "root": ".",
+  "metric": "micro_frame_aucroc",
+  "description": "Table 7 \u03bb-gating scores vs gt_concat.npy",
+  "results": [
+    {
+      "dataset": "XD-Violence",
+      "score_dir": "XD-Violence",
+      "gt_path": "XD-Violence/gt_concat.npy",
+      "n_videos": 800,
+      "n_frames": 2335801,
+      "n_positives": 531007,
+      "pred_frames": 2335801,
+      "aucroc": 0.8855827466499016,
+      "aucroc_pct": 88.56,
+      "error": null
+    },
+    {
+      "dataset": "UCF-Crime",
+      "score_dir": "UCF-Crime",
+      "gt_path": "UCF-Crime/gt_concat.npy",
+      "n_videos": 290,
+      "n_frames": 1111808,
+      "n_positives": 84331,
+      "pred_frames": 1111808,
+      "aucroc": 0.7635263835862104,
+      "aucroc_pct": 76.35,
+      "error": null
+    },
+    {
+      "dataset": "MSAD",
+      "score_dir": "MSAD",
+      "gt_path": "MSAD/gt_concat.npy",
+      "n_videos": 360,
+      "n_frames": 227524,
+      "n_positives": 81813,
+      "pred_frames": 227524,
+      "aucroc": 0.8237477577971584,
+      "aucroc_pct": 82.37,
+      "error": null
+    },
+    {
+      "dataset": "ShanghaiTech",
+      "score_dir": "ShanghaiTech",
+      "gt_path": "ShanghaiTech/gt_concat.npy",
+      "n_videos": 107,
+      "n_frames": 40791,
+      "n_positives": 17325,
+      "pred_frames": 40791,
+      "aucroc": 0.7550860739968385,
+      "aucroc_pct": 75.51,
+      "error": null
+    }
+  ]
+}

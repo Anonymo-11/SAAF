@@ -1,0 +1,26 @@
+{
+  "dataset": "UCF-Crime",
+  "stage": "3_lambda_gating_mild",
+  "lambda_delta": 0.6,
+  "lambda_drift": 0.4,
+  "lambda_both": 0.5,
+  "original_lambda_mapping": {
+    "delta_only": 0.8,
+    "drift_only": 0.2,
+    "both": 0.5
+  },
+  "threshold_tf": 0.4,
+  "fill_m": 16,
+  "n_videos": 290,
+  "n_frames": 1111808,
+  "micro_aucroc": 0.7627,
+  "micro_aucroc_pct": 76.27,
+  "micro_ap": 0.2913,
+  "expected_aucroc_pct": 76.27,
+  "inputs": {
+    "frame_dir": "/share/users/khalid_datasets/1_Efficient_Video_Anomaly_V2/ablation_signal_component_UCF/or_gated/stride_16_fill_16_val_0_30",
+    "video_dir": "/share/users/khalid_datasets/1_Efficient_Video_Anomaly_V2/Unified_data/ucf_crime/refined_scores_npys",
+    "gt_dir": "/share/users/khalid_datasets/FG/Codes/Results/0_Ground_Truth_datasets/UCF_Splitted_npys_underMainDirectory",
+    "lambda_dir": "/share/users/khalid_datasets/1_Efficient_Video_Anomaly_V2/6_UCF_lambda_generation_based_on_Delta_Drift/individual_scores"
+  }
+}

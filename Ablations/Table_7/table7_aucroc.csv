@@ -1,0 +1,5 @@
+dataset,aucroc,aucroc_pct,n_videos,n_frames,n_positives,score_dir,gt_path,error
+XD-Violence,0.8855827466499016,88.56,800,2335801,531007,XD-Violence,XD-Violence/gt_concat.npy,
+UCF-Crime,0.7635263835862104,76.35,290,1111808,84331,UCF-Crime,UCF-Crime/gt_concat.npy,
+MSAD,0.8237477577971584,82.37,360,227524,81813,MSAD,MSAD/gt_concat.npy,
+ShanghaiTech,0.7550860739968385,75.51,107,40791,17325,ShanghaiTech,ShanghaiTech/gt_concat.npy,
